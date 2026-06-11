@@ -1,5 +1,6 @@
-# Atividade 1 - Soma de dois números
-a, b = map(int, input().split())
+def soma(a,b):
+    soma = a + b
+    return soma
 
-soma = a + b
-print(soma)
+a,b = map(int, input().split())
+print(soma(a,b))
